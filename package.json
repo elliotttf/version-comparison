@@ -1,0 +1,40 @@
+{
+  "name": "version-comparison",
+  "version": "1.0.0",
+  "description": "Compare two version strings.",
+  "main": "lib/compare.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotttf/version-comparison.git"
+  },
+  "keywords": [
+    "version",
+    "comparison"
+  ],
+  "author": "Elliott Foster <elliottf@codebrews.com> (http://codebrews.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliotttf/version-comparison/issues"
+  },
+  "homepage": "https://github.com/elliotttf/version-comparison#readme",
+  "devDependencies": {
+    "ghooks": "^0.3.2",
+    "gulp": "^3.8.11",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-nodeunit": "0.0.5",
+    "jshint-stylish": "^1.0.1"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "gulp lint",
+      "pre-push": "gulp test"
+    }
+  },
+  "dependencies": {
+    "semver": "^4.3.4"
+  }
+}
