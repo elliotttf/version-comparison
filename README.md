@@ -5,6 +5,9 @@
 This utility will compare two version strings to determine which is larger or if the strings
 are equivalent.
 
+Note: this utility makes a best effort at comparing _sane_ version strings but is not meant
+to be a catchall.
+
 ## Usage
 
 ```jvascript
