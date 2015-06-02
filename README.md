@@ -15,5 +15,5 @@ to be a catchall.
 var compare = require('version-comparison');
 compare('v1', '1.0');  //  0
 compare('1.0.1', '1'); //  1
-compare('1', '2')      // -1
+compare('1', '2');     // -1
 ```
