@@ -1,7 +1,7 @@
 # Compare Versions
 
 [![Build Status](https://travis-ci.org/elliotttf/version-comparison.svg)](https://travis-ci.org/elliotttf/version-comparison)
-[![Coverage Status](https://coveralls.io/repos/elliotttf/version-comparison/badge.svg)](https://coveralls.io/r/elliotttf/version-comparison)
+[![Coverage Status](https://coveralls.io/repos/elliotttf/version-comparison/badge.svg?branch=master)](https://coveralls.io/r/elliotttf/version-comparison?branch=master)
 
 This utility will compare two version strings to determine which is larger or if the strings
 are equivalent.
