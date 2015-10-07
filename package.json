@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/elliotttf/version-comparison#readme",
   "devDependencies": {
-    "ghooks": "^0.3.2",
-    "gulp": "^3.8.11",
-    "gulp-coveralls": "^0.1.4",
+    "ghooks": "0.3.2",
+    "gulp": "3.9.0",
+    "gulp-coveralls": "0.1.4",
     "gulp-eslint": "1.0.0",
-    "gulp-istanbul": "^0.8.1",
+    "gulp-istanbul": "0.8.1",
     "gulp-nodeunit": "0.0.5"
   },
   "config": {
@@ -35,6 +35,6 @@
     }
   },
   "dependencies": {
-    "semver": "^4.3.4"
+    "semver": "5.0.3"
   }
 }
