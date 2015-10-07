@@ -3,10 +3,8 @@ var compare = require('../lib/compare');
 var assertCompare = function (test, left, right, title) {
   test.expect(4);
 
-  var equal;
-
   test.doesNotThrow(function () {
-    equal = compare(left, left);
+    compare(left, left);
   }, 'Valid version string treated as invalid.');
 
   test.equal(compare(left, left), 0, title + ' strings not equal.');
