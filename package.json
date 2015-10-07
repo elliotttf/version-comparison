@@ -36,6 +36,6 @@
     }
   },
   "dependencies": {
-    "semver": "4.3.6"
+    "semver": "5.0.3"
   }
 }
