@@ -9,7 +9,9 @@ node_js:
   - '6'
 before_script:
   - npm prune
-script: npm run lint && npm t
+script:
+  - npm run lint
+  - npm t
 after_success:
   - npm run coveralls
   - npm run semantic-release
