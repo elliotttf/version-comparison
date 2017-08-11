@@ -1,5 +1,7 @@
 # Compare Versions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliotttf/version-comparison.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/elliotttf/version-comparison.svg?branch=master)](https://travis-ci.org/elliotttf/version-comparison)
 [![Coverage Status](https://coveralls.io/repos/elliotttf/version-comparison/badge.svg?branch=master)](https://coveralls.io/r/elliotttf/version-comparison?branch=master)
 
