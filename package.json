@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "semver": "^5.1.1"
+    "semver": "^7.1.0"
   },
   "engines": {
     "node": ">=6"
